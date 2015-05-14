@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: Sunshine\ImageCompare
+    psr4_prefix: Sunshine\ImageCompare
