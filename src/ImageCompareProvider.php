@@ -23,7 +23,7 @@ class ImageCompareProvider extends ServiceProvider {
 	{
 		$this->app->bindShared('imagecompare', function($app)
 		{
-			return new ImageCompare;
+			return  new \Jenssegers\ImageHash\ImageHash;
 		});
 		$this->app->alias('imagecompare', 'Sunshine\ImageCompare');
 		$this->app->alias('ImageCompare', 'Sunshine\ImageCompare\Facades\ImageCompare');
