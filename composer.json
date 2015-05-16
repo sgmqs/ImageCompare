@@ -9,15 +9,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Hardik Shah",
-            "email": "mail.hardikshah@gmail.com",
-            "homepage": "www.hardikshah.work",
-            "role": "Developer"
-        },
-        {
           "name": "Sunshine",
           "email": "sunshine.mahant@gmail.com",
-          "homepage": "coding-sunshine.com",
+          "homepage": "http://www.coding-sunshine.com",
+          "role": "Developer"
+        },
+        {
+          "name": "Hardik Shah",
+          "email": "mail.hardikshah@gmail.com",
+          "homepage": "http://www.hardikshah.work",
           "role": "Developer"
         }
     ],
