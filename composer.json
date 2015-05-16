@@ -1,21 +1,51 @@
 {
     "name": "sunshine/imageCompare",
     "description": "Compare images similarity based on pHash mechanism",
+    "keywords": [
+        "sunshine",
+        "imageCompare"
+    ],
+    "homepage": "https://github.com/coding-sunshine/ImageCompare",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hardik Shah",
+            "email": "mail.hardikshah@gmail.com",
+            "homepage": "www.hardikshah.work",
+            "role": "Developer"
+        },
+        {
+          "name": "Sunshine",
+          "email": "sunshine.mahant@gmail.com",
+          "homepage": "coding-sunshine.com",
+          "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Sunshine\\ImageCompare\\": "src/"
         }
     },
     "require": {
+      "php" : ">=5.3.0",
       "jenssegers/imagehash": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
-        "phpspec/phpspec": "~2.0"
+        "phpspec/phpspec": "~2.0",
+        "scrutinizer/ocular": "~1.1"
     },
     "autoload-dev": {
         "psr-4": {
             "Sunshine\\ImageCompare\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+      "test": "phpunit"
+    },
+    "extra": {
+      "branch-alias": {
+        "dev-master": "1.0-dev"
+      }
     }
 }
