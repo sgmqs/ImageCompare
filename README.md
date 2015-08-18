@@ -14,6 +14,7 @@
 Perceptual hashes are a different concept compared to cryptographic hash functions like MD5 and SHA1. With cryptographic hashes, the hash values are random. The data used to generate the hash acts like a random seed, so the same data will generate the same result, but different data will create different results. Comparing two SHA1 hash values really only tells you two things. If the hashes are different, then the data is different. And if the hashes are the same, then the data is likely the same. In contrast, perceptual hashes can be compared -- giving you a sense of similarity between the two data sets.
 
 This code was based on:
+ - https://github.com/jenssegers/imagehash
  - https://github.com/kennethrapp/phasher
  - http://www.phash.org
  - http://www.hackerfactor.com/blog/index.php?/archives/529-Kind-of-Like-That.html
